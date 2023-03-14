@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Music</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/53c4033439.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="audio-player">
+            <p id="alert-msg"></p>
+            <h4>Sri player</h4>
+            <img src="Anirudh_Ravichander_performs_Music___Symphony_at_the_DEC_Arena_m54284.jpg" class="image">
+            <h1 id="song-name">Anirudh</h1>
+            <!-- <h3 id="artist">Nee-Partha</h3> -->
+            <marquee id="artist" behavior="left" direction="">Nee-Partha</marquee>
+
+            <audio>
+                <source src="">
+            </audio>
+            <div class="numbercontainer">
+              <div id="numberone">00:00</div>
+              <input type="range" value="0" class="progress">
+              <div id="numbertwo">00:00</div>
+            </div>
+
+            <div class="controls">
+                <div><i class="fa-solid fa-backward-step" id="periviousbtn"></i></div>
+                <div><i class="fa-solid fa-backward" id="forwards"></i></div>
+                <div><i class="fa-solid fa-play play" id="playbtn"></i></div>
+                <div><i class="fa-solid fa-forward" id="backward"></i></div>
+                <div><i class="fa-solid fa-forward-step" id="nextsongbtn"></i></div>
+
+            </div>
+
+            <div class="volume">
+                <div><i class="fa-solid fa-volume"></i></div>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
